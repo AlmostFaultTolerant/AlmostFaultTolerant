@@ -66,3 +66,19 @@ a:hover {
     color: #1b5e20;
     text-decoration: underline;
 }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    max-width: 100px; /* Adjusted size */
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.text {
+    flex: 1;
+}
