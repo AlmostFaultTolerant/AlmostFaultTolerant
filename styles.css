@@ -141,8 +141,8 @@ body.contact {
 }
 
 .profile-pic {
-    width: 140px;
-    height: 180px;
+    width: 280px;
+    height: 360px;
     object-fit: cover;
     object-position: center top;
     border-radius: 12px;
@@ -172,7 +172,7 @@ body.contact {
         gap: 18px;
     }
     .profile-pic {
-        width: 100px;
-        height: 130px;
+        width: 200px;
+        height: 260px;
     }
 }
