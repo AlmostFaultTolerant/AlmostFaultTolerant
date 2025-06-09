@@ -105,6 +105,27 @@ footer {
     font-size: 0.9em;
 }
 
+/* Home: soft grid */
+body.home {
+    background-color: #f7fafc;
+    background-image: linear-gradient(90deg, #e3f9e5 1px, transparent 1px), 
+                      linear-gradient(#e3f9e5 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+/* About: subtle diagonal lines */
+body.about {
+    background-color: #f7fafc;
+    background-image: repeating-linear-gradient(135deg, #e3e8ee 0 2px, transparent 2px 20px);
+}
+
+/* Contact: soft dots */
+body.contact {
+    background-color: #f7fafc;
+    background-image: radial-gradient(circle, #e3e8ee 1.5px, transparent 1.5px);
+    background-size: 28px 28px;
+}
+
 @media (max-width: 700px) {
     .container {
         padding: 18px 4vw;
